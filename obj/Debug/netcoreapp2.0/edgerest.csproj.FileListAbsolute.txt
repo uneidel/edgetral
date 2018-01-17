@@ -1,0 +1,10 @@
+/home/batzi/Dokumente/edgerest/bin/Debug/netcoreapp2.0/edgerest.deps.json
+/home/batzi/Dokumente/edgerest/bin/Debug/netcoreapp2.0/edgerest.runtimeconfig.json
+/home/batzi/Dokumente/edgerest/bin/Debug/netcoreapp2.0/edgerest.runtimeconfig.dev.json
+/home/batzi/Dokumente/edgerest/bin/Debug/netcoreapp2.0/edgerest.dll
+/home/batzi/Dokumente/edgerest/bin/Debug/netcoreapp2.0/edgerest.pdb
+/home/batzi/Dokumente/edgerest/obj/Debug/netcoreapp2.0/edgerest.csproj.CoreCompileInputs.cache
+/home/batzi/Dokumente/edgerest/obj/Debug/netcoreapp2.0/edgerest.AssemblyInfoInputs.cache
+/home/batzi/Dokumente/edgerest/obj/Debug/netcoreapp2.0/edgerest.AssemblyInfo.cs
+/home/batzi/Dokumente/edgerest/obj/Debug/netcoreapp2.0/edgerest.dll
+/home/batzi/Dokumente/edgerest/obj/Debug/netcoreapp2.0/edgerest.pdb
