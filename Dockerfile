@@ -1,4 +1,5 @@
-FROM microsoft/dotnet:2.0.0-runtime-stretch
+#FROM microsoft/dotnet:2.0.0-runtime-stretch
+FROM microsoft/dotnet:2.0-sdk-stretch
 RUN apt-get update && apt-get install -y nginx bash
 COPY index.html /var/www/html
 COPY ./Docker/s6-overlay-amd64.tar.gz /tmp/ 
@@ -13,11 +14,13 @@ WORKDIR /app
 COPY $EXE_DIR/ ./
 
 
-COPY edgetorock/bin/Debug/netcoreapp2.0/publish/ /synctool
+COPY ../edgetorock/bin/Debug/netcoreapp2.0/publish/ /synctool
+# testing
+#ADD edgetorock/bin/Debug/amd64/* /synctool/
 
 #Do Cleanup
 #RUN apt-get -y autoremove && apt-get clean && rm -rf /var/lib/apt/lists/*
-
+WORKDIR /synctool
 ENTRYPOINT ["/init"]
 
 
