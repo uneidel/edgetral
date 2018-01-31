@@ -18,7 +18,6 @@ namespace edgerest
 {
     public class Program
     {
-        static int counter;
 
         public static void Main(string[] args)
         {

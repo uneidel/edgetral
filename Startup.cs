@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 using edgerest.Attributes;
 using edgerest.Middleware;
-using edgerest.Repositories;
+
 
 namespace edgerest
 {
@@ -34,7 +34,7 @@ namespace edgerest
 
         public virtual void ConfigureRepositories(IServiceCollection services)
         {
-            services.AddSingleton<IPersonRepository, PersonRepository>();
+          //  services.AddSingleton<IPersonRepository, PersonRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

@@ -22,6 +22,8 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.0.0" />
     
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.0" />
+    
+    <PackageReference Include="ServiceStack.Redis.Core" Version="5.0.2" />
     <!-- 
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.0-preview2-final" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.0.0-preview2-final" />

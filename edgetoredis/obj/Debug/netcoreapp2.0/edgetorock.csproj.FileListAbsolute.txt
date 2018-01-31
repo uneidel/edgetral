@@ -1,0 +1,10 @@
+/home/batzi/Dokumente/edgetoredis/bin/Debug/netcoreapp2.0/edgetorock.deps.json
+/home/batzi/Dokumente/edgetoredis/bin/Debug/netcoreapp2.0/edgetorock.runtimeconfig.json
+/home/batzi/Dokumente/edgetoredis/bin/Debug/netcoreapp2.0/edgetorock.runtimeconfig.dev.json
+/home/batzi/Dokumente/edgetoredis/bin/Debug/netcoreapp2.0/edgetorock.dll
+/home/batzi/Dokumente/edgetoredis/bin/Debug/netcoreapp2.0/edgetorock.pdb
+/home/batzi/Dokumente/edgetoredis/obj/Debug/netcoreapp2.0/edgetorock.csproj.CoreCompileInputs.cache
+/home/batzi/Dokumente/edgetoredis/obj/Debug/netcoreapp2.0/edgetorock.AssemblyInfoInputs.cache
+/home/batzi/Dokumente/edgetoredis/obj/Debug/netcoreapp2.0/edgetorock.AssemblyInfo.cs
+/home/batzi/Dokumente/edgetoredis/obj/Debug/netcoreapp2.0/edgetorock.dll
+/home/batzi/Dokumente/edgetoredis/obj/Debug/netcoreapp2.0/edgetorock.pdb
