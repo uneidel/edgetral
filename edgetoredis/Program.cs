@@ -107,7 +107,7 @@ namespace edgetorock
                 Console.WriteLine("Error storing Moduleconfig - " + ex.Message);
             }
             await ioTHubModuleClient.SetDesiredPropertyUpdateCallbackAsync(onDesiredPropertiesUpdate, null);
-            await ioTHubModuleClient.SetInputMessageHandlerAsync("rocksdbinput", PipeMessage, ioTHubModuleClient);
+            await ioTHubModuleClient.SetInputMessageHandlerAsync("edgetralinput", PipeMessage, ioTHubModuleClient);
             
         }
         static Task onDesiredPropertiesUpdate(TwinCollection desiredProperties, object userContext)
